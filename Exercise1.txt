@@ -1,0 +1,41 @@
+🧪 Exercise 3: Color Palette Selector
+🎯 Goal:
+Let the user pick a color from a palette and show the selected color in a preview box.
+
+📘 Concepts Covered:
+Passing functions as props
+
+Updating parent state from child
+
+Props + useState together
+
+🛠️ Components:
+✅ ColorOption (child)
+Accepts:
+
+color prop (e.g. "red")
+
+onSelectColor function prop
+
+Renders a small button or box that shows the color
+
+On click → calls onSelectColor(color)
+
+✅ ColorPalette (parent)
+Renders a group of ColorOptions
+
+Maintains the selected color in useState
+
+Shows a preview box with the selected color
+
+🔧 Sample Usage:
+tsx
+Copy
+Edit
+<ColorPalette colors={["red", "blue", "green", "orange"]} />
+And inside ColorPalette, you’ll render each color using ColorOption.
+
+✅ Expected Output:
+A few colored buttons/boxes
+
+Clicking one updates a preview area (a box or div) with that background color
