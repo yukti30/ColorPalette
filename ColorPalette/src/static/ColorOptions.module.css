@@ -1,0 +1,15 @@
+.container{
+    text-align: center;
+    display: grid;
+    /* align-items: center; for flex item */
+    /* display: flex; */
+    /* justify-content: center; only for flex item */
+    place-items: center; /* shorthand for align-items + justify-items */
+
+}
+.outputColor{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    /* left: 50%; */
+}

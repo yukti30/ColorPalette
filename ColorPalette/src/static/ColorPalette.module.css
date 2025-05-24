@@ -1,0 +1,10 @@
+.colorOptions{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.colors{
+    height: 100px;
+    flex: 1; /*evenly distributing width among the divs"*/
+}
